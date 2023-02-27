@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="WPFChatBot.ServerUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:gif="http://wpfanimatedgif.codeplex.com"
+             xmlns:local="clr-namespace:WPFChatBot"
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="700">
+    <Grid Background="White">
+        <Image Width="155" Height="155" gif:ImageBehavior.AnimatedSource="Gifs/cat.gif" HorizontalAlignment="Left" >
+        </Image>
+        <TextBox HorizontalAlignment="Right" Width="100" Height="50" Text="{Binding Path=DateTimeValue, StringFormat=dd-MM-yyyy}" />
+        <TextBlock HorizontalAlignment="Center" Margin="40,0,0,0" Height="100" Width="300" TextWrapping="Wrap" ></TextBlock>
+    </Grid>
+</UserControl>
