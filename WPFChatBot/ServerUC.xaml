@@ -7,11 +7,11 @@
              xmlns:sys="clr-namespace:System;assembly=mscorlib"
              xmlns:local="clr-namespace:WPFChatBot"
              mc:Ignorable="d" 
-             d:DesignHeight="60" d:DesignWidth="300">
+             d:DesignHeight="60" d:DesignWidth="300" >
     <Grid Background="Transparent">
         <Image Margin="0,0,240,0" Width="55" Height="55" gif:ImageBehavior.AnimatedSource="Gifs/server.gif"  >
         </Image>
-        <TextBox BorderThickness="0" x:Name="datetime" Margin="240,0,0,0" HorizontalContentAlignment="Center" Width="50" Height="20" Text="{Binding Source={x:Static sys:DateTime.Now},  StringFormat='HH:mm ',Mode=OneWay}"/>
-        <TextBlock  Margin="0,0,30,0" Height="20" Width="100" TextWrapping="Wrap" ></TextBlock>
+        <TextBox Background="Transparent" Foreground="White" BorderThickness="0" x:Name="datetime" Margin="240,0,0,0" HorizontalContentAlignment="Center" Width="50" Height="20" Text="{Binding Source={x:Static sys:DateTime.Now},  StringFormat='HH:mm ',Mode=OneWay}"/>
+        <TextBlock TextAlignment="Left" FontSize="10" Foreground="White" Name="serverTxtBlock" Margin="0,0,30,0" Height="100" Width="100"  TextWrapping="Wrap" ></TextBlock>
     </Grid>
 </UserControl>

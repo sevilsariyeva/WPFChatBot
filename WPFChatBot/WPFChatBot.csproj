@@ -35,8 +35,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AIMLbot">
+      <HintPath>..\..\..\..\Desktop\AIMLbot.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing.Common, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.7.0.0\lib\net462\System.Drawing.Common.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -61,6 +67,7 @@
     <Compile Include="ServerUC.xaml.cs">
       <DependentUpon>ServerUC.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SizeText.cs" />
     <Compile Include="UserUC.xaml.cs">
       <DependentUpon>UserUC.xaml</DependentUpon>
     </Compile>
@@ -129,6 +136,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Gifs\chatbot.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Gifs\chatbot-marketing.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
