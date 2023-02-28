@@ -38,7 +38,7 @@ namespace WPFChatBot
             user.HorizontalAlignment = HorizontalAlignment.Right;
             user.Margin = new Thickness(0,0,0,150);
             ListBox listBox = new ListBox();
-            listBox.Background=new SolidColorBrush(Colors.MidnightBlue);
+            listBox.Background=new SolidColorBrush(Color.FromRgb(7, 33, 56));
             listBox.Width = 600;
             listBox.Height = 300;
             listBox.Margin = new Thickness(0, 0, 0, 100);
