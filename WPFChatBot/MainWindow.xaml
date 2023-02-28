@@ -34,7 +34,8 @@
         <Grid Name="myGrid" >
             <ListBox BorderThickness="0" Name="myListBox" Visibility="Hidden">
             </ListBox>
-            <Image Name="robot" Visibility="Hidden" HorizontalAlignment="Left" Width="200" Height="250"  gif:ImageBehavior.AnimatedSource="Gifs/chatbot-marketing.gif"  Margin="-30,150,0,0" ></Image>
+            <Image Name="robot" Visibility="Hidden" HorizontalAlignment="Left" Width="200" Height="250"  gif:ImageBehavior.AnimatedSource="Gifs/chatbot-marketing.gif"  Margin="-30,200,0,0" ></Image>
+            <Image Name="icon" Visibility="Hidden" HorizontalAlignment="Left" Width="200" Height="250"  gif:ImageBehavior.AnimatedSource="Gifs/200w.gif"  Margin="630,-40,0,260" ></Image>
         </Grid>
     </Grid>
 

@@ -140,5 +140,8 @@
   <ItemGroup>
     <Resource Include="Gifs\chatbot-marketing.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Gifs\200w.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

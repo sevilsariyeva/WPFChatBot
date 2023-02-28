@@ -35,6 +35,7 @@ namespace WPFChatBot
             UserUC user = new UserUC();
         private void startBtn_Click(object sender, RoutedEventArgs e)
         {
+            icon.Visibility = Visibility.Visible;
             robot.Visibility = Visibility.Visible;
             mainGrid.Children.Clear();
             mainGrid.Background = new SolidColorBrush(Colors.Black);
