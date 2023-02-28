@@ -61,6 +61,9 @@
     <Compile Include="ServerUC.xaml.cs">
       <DependentUpon>ServerUC.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserUC.xaml.cs">
+      <DependentUpon>UserUC.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -74,6 +77,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="ServerUC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserUC.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -106,9 +113,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Gifs\cat.gif" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\background.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +120,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\pop-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Gifs\server.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Gifs\user.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
